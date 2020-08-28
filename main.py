@@ -17,7 +17,7 @@ def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
     print('On Git Hub')
-    print('change on github)'
+    print('change on github')
 
 def connect_redshift_db():
     cnx = psycopg2.connect(dbname='dwh',
